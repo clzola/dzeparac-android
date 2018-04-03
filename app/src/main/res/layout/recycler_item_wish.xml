@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_name_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Lizalica" />
+
+    <TextView
+        android:id="@+id/tv_amount_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/btn_wish_buy"
+        android:layout_marginEnd="6dp"
+        android:textSize="20sp"
+        tools:text="15.00" />
+
+    <ImageButton
+        android:id="@+id/btn_wish_buy"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_shop_cart" />
+
+</RelativeLayout>

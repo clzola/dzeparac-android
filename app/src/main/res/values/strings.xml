@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Džeparac</string>
+    <string name="btn_login">Prijavi se</string>
+    <string name="hint_input_email">E-Mail</string>
+    <string name="hint_input_password">Lozinka</string>
+    <string name="btn_register">Registracija</string>
+    <string name="action_main_tab">Glavna</string>
+    <string name="action_history_tab">Istorija</string>
+    <string name="action_wishlist_tab">Želje</string>
+    <string name="balance_display">Tvoj džeprac: %.2f €</string>
+    <string name="action_add_transaction">Dodaj transakciju</string>
+    <string name="action_add_wish">Dodaj želju</string>
+    <string name="label_category">Kategorija</string>
+    <string name="label_name">Naziv</string>
+    <string name="label_amount">Cijena</string>
+    <string name="btn_success">Potvrdi</string>
+    <string name="btn_cancel">Otkaži</string>
+    <string name="add_transaction_title">Dodaj transakciju</string>
+    <string name="add_wish_title">Dodaj želju</string>
+</resources>
